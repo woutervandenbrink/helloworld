@@ -1,0 +1,22 @@
+{
+    "name": "napnop-net/hello-world",
+    "description": "My first composer project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wouter van den Brink",
+            "email": "wj.vandenbrink@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+
+}
